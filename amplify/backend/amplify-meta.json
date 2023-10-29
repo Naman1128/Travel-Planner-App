@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myapp-dev-173403-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333927775902:role/amplify-myapp-dev-173403-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333927775902:role/amplify-myapp-dev-173403-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-myapp-dev-173403-deployment",
+      "UnauthRoleName": "amplify-myapp-dev-173403-unauthRole",
+      "StackName": "amplify-myapp-dev-173403",
+      "StackId": "arn:aws:cloudformation:ap-south-1:333927775902:stack/amplify-myapp-dev-173403/ebf1a890-74c0-11ee-85ef-0658857cd5c6",
+      "AmplifyAppId": "d3ok9v52eap90f"
+    }
+  },
+  "auth": {
+    "myapp38931d27": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-myapp-dev-173403-deployment/amplify-cfn-templates/auth/myapp38931d27-cloudformation-template.json",
+        "logicalId": "authmyapp38931d27"
+      },
+      "lastPushTimeStamp": "2023-10-27T12:09:24.097Z",
+      "output": {
+        "UserPoolId": "ap-south-1_BDtR6iWeQ",
+        "AppClientIDWeb": "3akbaeo2b2arq5jiv6dtcjv4jd",
+        "AppClientID": "740oncmtc7b8nvr16tivh6lof1",
+        "IdentityPoolId": "ap-south-1:8c302bde-42db-4af5-ae23-4487ebdb65dc",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:333927775902:userpool/ap-south-1_BDtR6iWeQ",
+        "IdentityPoolName": "myapp38931d27_identitypool_38931d27__dev",
+        "UserPoolName": "myapp38931d27_userpool_38931d27"
+      },
+      "lastPushDirHash": "2wHY/xtnYUpEFNMlLb8lXSgRsfU="
+    }
+  }
+}

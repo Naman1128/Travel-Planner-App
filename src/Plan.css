@@ -1,0 +1,52 @@
+.trip-planner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-rectangle {
+  width: 650px;
+  height: 600px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin: 10px 10px;
+  color: black;
+}
+
+button {
+  align-self: flex-end;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #34dbc5;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  text-align: center; /* Center the text inside the circle */
+}
+
+/* Style the anchor (link) inside the circle */
+.circle a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
