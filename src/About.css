@@ -1,0 +1,27 @@
+.abouts {
+  background-color: rgb(203, 194, 247); /* Green color in hexadecimal */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.about-container {
+    background-color: #bab7da;
+    color: #5950bb;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #B2A6D9;
+  }
+  
+  p {
+    color: black;
+  }
+ 
+.about-container{
+    margin-top: 100px;
+}
